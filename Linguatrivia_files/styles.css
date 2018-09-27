@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: 18px;
+	line-height: 36px;
+	font-weight: 400;
+	font-family:'Open Sans', sans-serif;
+}
+
+.navbar {
+	background-color: #1D1D1B;
+}
+
+.jumbotron {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.nav-link {
+	color: #fff;
+}
+
+.app-img {
+	/*display: block;*/
+    height: 20%;  
+    width: 20%;
+}
+
+
+.lscp-btn-green {
+	background-color: #009D40;
+	color: #fff;
+}
+
+.lscp-btn-blue {
+	background-color: #026BAF;
+	color: #fff;
+}
+
+.lscp-jumbotron-image {
+	/*background-color: #025286;*/
+	background-image: url(images/bg.jpg);
+}
+
+.lscp-jumbotron-text {
+	background-color: #E5EFF7;
+	box-shadow: 0 -5px 5px rgba(0, 0, 0, .2);
+}
+
+.lscp-jumbotron-game {
+	background-color: #fff;
+	box-shadow: 0 -5px 5px rgba(0, 0, 0, .2);
+}
+
+.lscp-question-marks {
+	background-color: #E5EFF7;
+	margin: 0;
+	padding: 0;
+}
+
+.lscp-jumbotron-testimonials {
+	background-color: #026BAF;
+}
+
+nav {
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+}
+
+.lscp-jumbotron-testimonials p {
+	padding: 0;
+	color: #80B5D7;
+	font-style: italic;
+}
+
+@media (min-width: 992px) { 
+	.lscp-jumbotron-testimonials p {
+		padding: 0 100px;
+	}
+}
+
+.blockquote-footer {
+	color: #013659;
+}
+
+.btn {
+	border-radius: 0;
+	padding: 20px 50px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .2);
+	font-weight: 700;
+	
+	border-radius: 10px;
+}
+
+.footer {
+	background-color: #013659;
+	color: #026BAF;
+	padding: 10px;
+}
+
+.lscp_p_intro {
+	font-weight: 600;
+	font-size: 28px;
+	color: #013659;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 45px;
+	color: #013659;
+	margin-bottom: 36px;
+}
+
+p {
+	margin-bottom: 18px;
+}
+
+.form-control {
+	border-radius: 0;
+}
